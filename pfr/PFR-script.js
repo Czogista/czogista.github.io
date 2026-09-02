@@ -31,7 +31,7 @@ function updateRateDisplays() {
 let calculationMode = 'address'; // 'address' or 'manual'
 
 function goHome() {
-    window.location.href = 'https://maleka.dev/';
+    window.siteNavigate('../');
 }
 
 function setupAddressAutocomplete() {

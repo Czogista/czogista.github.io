@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="shutdown.js"></script>
     <script src="coffee-supporters.js"></script>
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
         data-id="czogista" data-description="Support me on Buy me a coffee!"
@@ -97,7 +98,7 @@
                         <button class="btn btn-secondary" onclick="showSection('contact')" id="contactButton">
                             <span class="btn-text">Get in touch</span>
                         </button>
-                        <button class="btn btn-accent" onclick="window.location.href='student-deal/'" id="studentOfferButton">
+                        <button class="btn btn-accent" onclick="siteNavigate('student-deal/')" id="studentOfferButton">
                             <span class="btn-text">Student Offer</span>
                             <div class="btn-glow"></div>
                         </button>
@@ -125,7 +126,12 @@
                 </button>
             </nav>
 
-            <p id="logoRequest" class="logo-request">
+            <p class="site-takedown-notice">
+                This website is planned to be taken down around May 2027.
+            </p>
+            <p class="april-fools-notice" hidden>This is not an April Fools' joke.</p>
+
+            <p id="logoRequest" class="logo-request" hidden>
                 I am seeking an individual with a background in computer graphics.<br>
                 If you are interested in creating my brand logo, please send me your previous projects and a description
                 of your experience via email.

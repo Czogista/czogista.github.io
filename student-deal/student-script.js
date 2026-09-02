@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Go back to main page
 function goHome() {
-    window.location.href = '../';
+    window.siteNavigate('../');
 }
 
 // Basic animations initialization

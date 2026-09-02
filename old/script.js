@@ -1,5 +1,5 @@
 function reload() {
-    window.location.href = "https://www.maleka.dev/";
+    window.siteNavigate('../');
     style.setAttribute("href", "style.css");
 }
 
